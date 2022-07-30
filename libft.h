@@ -27,4 +27,5 @@ void	*calloc(size_t nmemb, size_t size);
 char	*strdup(const char *s);
 void	ft_putchar_fd(char s, int fd);
 void	ft_putstr_fd(char *s, int fd);
+char	*ft_strjoin(char const *s1, char const *s2);
 #endif
