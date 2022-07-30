@@ -5,7 +5,7 @@ CC = gcc
 
 CFLAGS = -Werror -Wall -Wextra 
 
-SRCS = ft_isalpha.c ft_isdigit.c ft_toupper.c ft_tolower.c ft_isalnum.c 
+SRCS = ft_isalpha.c ft_isdigit.c ft_toupper.c ft_tolower.c ft_isalnum.c ft_strlen.c ft_isprint.c 
 
 OBJS = $(SRCS:.c=.o)
 
