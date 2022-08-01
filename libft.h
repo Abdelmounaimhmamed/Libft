@@ -35,4 +35,5 @@ char	*ft_itoi(int n);
 void	*ft_memmove(void *dest, const void *src, size_t	n);
 int	ft_isascii(int c);
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
+void	ft_striteri(char *s, void (*f)(unsigned int, char *));
 #endif
